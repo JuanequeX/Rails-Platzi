@@ -1,24 +1,25 @@
-# README
+# Topics Analyzed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* What is ruby on rails.
 
-Things you may want to cover:
+* Development environment.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
+* Ruby on rails essential modules
 
 * Database creation
 
-* Database initialization
+* How create a Rails App with automated tests
 
-* How to run the test suite
+* Basic enrouting
 
-* Services (job queues, cache servers, search engines, etc.)
+* Manipulation of the mvc pattern
 
-* Deployment instructions
+* Assets & layouts
 
-* ...
+* Principles Scaffolds
+
+* How Migrations work
+
+* Used Simple form
+
+* Debeugging 
