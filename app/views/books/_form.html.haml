@@ -1,0 +1,19 @@
+= simple_form_for(@book) do |f|
+  - if book.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(book.errors.count, "error")
+        prohibited this book from being saved:
+      %ul
+        - book.errors.each do |error|
+          %li= error.full_message
+
+  .form-inputs
+    = f.input :title, label: 'Titulo'
+    = f.input :author, label: 'Autor'
+    = f.input :description, label: 'Descripccion'
+    = f.input :isbn, label: 'ID'
+    = f.input :page_count, label: 'Cantidad de paginas'
+
+  .form-actions
+    = f.button :submit
